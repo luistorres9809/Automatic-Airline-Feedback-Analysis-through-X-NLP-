@@ -7,5 +7,33 @@ The pipeline includes from exploratory data analysis to semantic topic extractio
 
 ---
 
-# 2.Objetive
-Develop a sentiment analysis pipeline on airline tweets using natural language processing (NLP) and machine learning techniques to discover positive or negative sentiments as well as relevant topics in user Tweets for airlines in the USA.
+# Natural Language Processing Project
+
+## Overview
+This project applies Natural Language Processing (NLP) techniques to analyze and process textual data. The goal is to extract meaningful insights from text using machine learning methods.
+
+## Technologies
+- Python
+- Pandas
+- NLTK / NLP tools
+- Scikit-learn
+- Jupyter Notebook
+
+## Workflow
+1. Text preprocessing
+2. Tokenization and cleaning
+3. Feature extraction
+4. Model training
+5. Model evaluation
+
+## Applications
+- Sentiment analysis
+- Text classification
+- Language data analysis
+
+## Results
+The model demonstrates the ability to classify or analyze textual data using machine learning techniques.
+
+## Author
+Luis Torres  
+MSc Data Science
