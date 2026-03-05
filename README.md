@@ -9,26 +9,22 @@ The workflow covers exploratory data analysis, sentiment analysis, topic modelin
 - Exploratory Data Analysis (EDA) on tweets
 - Text preprocessing (cleaning, tokenization, normalization)
 - Sentiment analysis / text classification
-- Topic modeling (LDA + semantic topic extraction using pretrained language models)
+- Topic modeling
 - Automatic summarization
 
 ## Tech Stack
 - Python
 - Pandas / NumPy
 - Scikit-learn
-- NLP libraries (e.g., NLTK / spaCy / transformers — depending on your notebook)
+- NLP libraries
 - Jupyter Notebook
-
-## Data
-Airline-related tweets collected from X (Twitter) / public dataset.
-> If you used a public dataset link (Kaggle / GitHub / etc.), add it here.
 
 ## Methodology (Pipeline)
 1. Data loading & EDA
 2. Text preprocessing
-3. Feature extraction (e.g., TF-IDF / embeddings)
-4. Modeling (classification + topic modeling)
-5. Evaluation (e.g., accuracy/F1 for classification)
+3. Feature extraction 
+4. Modeling 
+5. Evaluation
 6. Insight extraction + summarization
 
 ## Results
