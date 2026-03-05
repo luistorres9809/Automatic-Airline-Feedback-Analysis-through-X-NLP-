@@ -1,39 +1,42 @@
-# 1 Automatic Airline Feedback Analysis through X (Twitter) using Big Data and NLP
-
-Where social networks have become mainstream channels of interaction between consumers and brands, public opinion regarding airlines services becomes essential for any strategic decision. The project addresses this issue through deep NLP and machine learning for the analysis of tweets airline-related in USA and providing insights into public opinion.
-
-The pipeline includes from exploratory data analysis to semantic topic extraction from leveraging pre-trained language models and LDA modeling. It also encompasses functional features like new tweets sentiment prediction and automatic summarization.
-
-
----
-
-# Natural Language Processing Project
+# Automatic Airline Feedback Analysis through X (Twitter) — NLP & ML
 
 ## Overview
-This project applies Natural Language Processing (NLP) techniques to analyze and process textual data. The goal is to extract meaningful insights from text using machine learning methods.
+Social media has become a key channel for customer feedback. This project analyzes airline-related tweets in the USA to understand public opinion and extract actionable insights using NLP and machine learning.
 
-## Technologies
+The workflow covers exploratory data analysis, sentiment analysis, topic modeling, and text summarization, including a component for predicting sentiment on new tweets.
+
+## Key Features
+- Exploratory Data Analysis (EDA) on tweets
+- Text preprocessing (cleaning, tokenization, normalization)
+- Sentiment analysis / text classification
+- Topic modeling (LDA + semantic topic extraction using pretrained language models)
+- Automatic summarization
+
+## Tech Stack
 - Python
-- Pandas
-- NLTK / NLP tools
+- Pandas / NumPy
 - Scikit-learn
+- NLP libraries (e.g., NLTK / spaCy / transformers — depending on your notebook)
 - Jupyter Notebook
 
-## Workflow
-1. Text preprocessing
-2. Tokenization and cleaning
-3. Feature extraction
-4. Model training
-5. Model evaluation
+## Data
+Airline-related tweets collected from X (Twitter) / public dataset.
+> If you used a public dataset link (Kaggle / GitHub / etc.), add it here.
 
-## Applications
-- Sentiment analysis
-- Text classification
-- Language data analysis
+## Methodology (Pipeline)
+1. Data loading & EDA
+2. Text preprocessing
+3. Feature extraction (e.g., TF-IDF / embeddings)
+4. Modeling (classification + topic modeling)
+5. Evaluation (e.g., accuracy/F1 for classification)
+6. Insight extraction + summarization
 
 ## Results
-The model demonstrates the ability to classify or analyze textual data using machine learning techniques.
+- Sentiment model
+- Topic modeling
+- Summarization
 
-## Author
-Luis Torres  
-MSc Data Science
+## How to Run
+1. Clone the repo
+2. Install dependencies
+3. Run the notebook
